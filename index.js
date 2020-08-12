@@ -16,7 +16,7 @@ function greet(timeString) {
     return "Good Morning";
   }
   if (parseInt(hours) > 17) {
-    retur "Good Evening";
+    return "Good Evening";
   }
 }
 /* Write your implementation of displayMessage() */
