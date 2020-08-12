@@ -13,10 +13,11 @@ function handleClick(e) {
 function greet(timeString) {
   let hours = timeString.split(":").first;
   if (parseInt(hours) < 12) {
-    console.log("Good Morning");
+    return "Good Morning";
   }
-  if parseInt(hours) > 17
-  console.log("Good Evening");
+  if (parseInt(hours) > 17) {
+    retur "Good Evening";
+  }
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(greeting) {
