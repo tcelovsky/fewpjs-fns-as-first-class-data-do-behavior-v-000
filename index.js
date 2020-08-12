@@ -15,6 +15,9 @@ function greet(timeString) {
   if (parseInt(hours) < 12) {
     return "Good Morning";
   }
+  if (parseInt(hours) > 12 && parseInt(hours) < 17) {
+    return "Good Afternoon";
+  }
   if (parseInt(hours) > 17) {
     return "Good Evening";
   }
