@@ -16,7 +16,6 @@ function greet(timeString) {
   console.log("Good Morning");
   else parseInt(hours) > 17
   console.log("Good Evening");
-  end
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(greeting) {
