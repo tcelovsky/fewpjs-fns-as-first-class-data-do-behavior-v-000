@@ -21,5 +21,5 @@ function greet(timeString) {
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(greet) {
-  document.getElementById("greeting").addEventListener("click", handleClick);
+  document.getElementById("greeting").update(greet(timeString));
 }
