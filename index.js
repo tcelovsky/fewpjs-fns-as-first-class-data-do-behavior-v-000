@@ -13,9 +13,9 @@ function handleClick(e) {
 function greet(timeString) {
   let hours = timeString.split(":").first
   if parseInt(hours) < 12
-  return "Good Morning"
+  console.log("Good Morning");
   else parseInt(hours) > 17
-  return "Good Evening"
+  console.log("Good Evening");
   end
 }
 /* Write your implementation of displayMessage() */
