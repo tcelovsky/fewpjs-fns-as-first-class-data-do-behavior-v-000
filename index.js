@@ -14,7 +14,7 @@ function greet(timeString) {
   let hours = timeString.split(":").first
   if parseInt(hours) < 12
   console.log("Good Morning");
-  else parseInt(hours) > 17
+  if parseInt(hours) > 17
   console.log("Good Evening");
 }
 /* Write your implementation of displayMessage() */
